@@ -8,7 +8,7 @@
     border: solid 2px black;
     border-radius: 5px;
     padding: 15px;
-    margin: 5px;
+    margin: auto;
 }
 
 .side-border {
@@ -16,6 +16,11 @@
     border-left: solid 2px black;
     border-right: solid 2px black;
 }
+
+.testimony {
+    margin: 10px auto;
+}
+
 
 .divider-bar {
     border: solid black 2px;
@@ -65,6 +70,6 @@ html {
 }
 
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
 }

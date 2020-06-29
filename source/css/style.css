@@ -1,0 +1,70 @@
+
+
+.text-centered {
+    text-align: center;
+}
+
+.bordered {
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.side-border {
+    padding: 15px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+
+.divider-bar {
+    border: solid black 2px;
+    width: 30%;
+    margin: 5px;
+}
+
+header {
+    text-align: center;
+    background: url('../imgs/showcase.jpg') no-repeat center -35em;
+    color: #ffffff;
+
+}
+
+header h1 {
+    padding: 1.25em;
+}
+
+header p {
+    padding-bottom: 2em;
+    
+}
+
+main {
+    background-color: bisque;
+    height: 25em;
+}
+
+main section {
+    padding: 15px;
+    
+
+}
+
+#copyright {
+    padding: 15px 0;
+}
+
+footer {
+    padding: 15px 10px;
+    background-color: #146b96;
+    color: #ffffff;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

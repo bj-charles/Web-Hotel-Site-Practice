@@ -19,13 +19,30 @@
 
 .testimony {
     margin: 10px auto;
+    float: left;
+    width: 80%;
 }
 
+.testimony-picture {
+    max-width: 128px;
+    padding: 0 10px;
+    width: 20%;
+    float: left;
+}
+
+.testimony-text {
+    width: 60%;
+    float: right;
+}
 
 .divider-bar {
     border: solid black 2px;
     width: 30%;
     margin: 5px;
+}
+
+.clear-float {
+    clear: both;
 }
 
 header {
@@ -46,12 +63,11 @@ header p {
 
 main {
     background-color: bisque;
-    height: 25em;
 }
 
 main section {
     padding: 15px;
-    
+
 
 }
 
@@ -60,16 +76,19 @@ main section {
 }
 
 footer {
-    padding: 15px 10px;
+    padding: 25px 20px;
     background-color: #146b96;
     color: #ffffff;
 }
 
 html {
+    height: 100%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
     margin: auto;
     padding: 0;
+    box-sizing: border-box;
 }

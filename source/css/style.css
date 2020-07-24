@@ -20,7 +20,9 @@
 .testimony {
     margin: 10px auto;
     float: left;
-    width: 80%;
+    width: 70%;
+    background-color: #4c6ca0;
+    color: white;
 }
 
 .testimony-picture {
@@ -33,6 +35,10 @@
 .testimony-text {
     width: 60%;
     float: right;
+}
+
+.testimony-highlight {
+    padding-bottom: 5px;
 }
 
 .divider-bar {
@@ -77,7 +83,7 @@ main section {
 
 footer {
     padding: 25px 20px;
-    background-color: #146b96;
+    background-color: #4c6ca0;
     color: #ffffff;
 }
 
